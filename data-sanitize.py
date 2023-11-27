@@ -43,7 +43,6 @@ def monthly_average_data(file1, file2,file3, start_date=None, end_date=None):
     
     return result3
 
-# Replace 'Data1.csv' and 'Data2.csv' with your file names
 output = monthly_average_data('data/HDD.csv', 'data/NaturalGasPrice.csv','data/OilFuture.csv', start_date='01/1997', end_date='08/2020')
 
 # Save the output to a new CSV file
